@@ -21,4 +21,11 @@ mobile.addEventListener('click', function () {
 	mobile.classList.toggle('menu__color')
 })
 
-// INFINITE LOGO CAROUSEL
+// CONTACT LINK
+const contactLink = document.querySelector('.contact__link')
+const otherLink = document.querySelector('.menu__link')
+
+contactLink.addEventListener('click', function () {
+	contactLink.classList.add('link--active')
+	otherLink.classList.remove('link--active')
+})

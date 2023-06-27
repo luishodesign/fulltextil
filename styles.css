@@ -73,7 +73,7 @@ h2 {
 }
 
 h3 {
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 600;
 	text-transform: capitalize;
 	line-height: 120%;
@@ -162,6 +162,10 @@ img {
 
 .logo__link {
 	text-decoration: none;
+}
+
+.link--active {
+	color: var(--color-primary);
 }
 
 /* NAVIGATION */
@@ -310,12 +314,12 @@ section#logos {
 	align-self: center;
 }
 
-/* FEATURES */
-section#features {
+/* PRODUCTS */
+section#products {
 	padding: 112px 0;
 }
 
-.features__header {
+.products__header {
 	text-align: center;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -324,25 +328,25 @@ section#features {
 	margin-bottom: 80px;
 }
 
-.features__grid {
+.products__grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr;
 	gap: 32px;
 }
 
-.features__card {
+.products__card {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, auto);
 	gap: 24px;
 }
 
-.features__card .btn {
+.products__card .btn {
 	margin-right: auto;
 }
 
-.features__card img {
+.products__card img {
 	border-radius: 8px;
 }
 
@@ -372,6 +376,34 @@ section#info {
 
 .info__content .btn {
 	margin-right: auto;
+}
+
+/* FEATURES */
+section#features {
+	padding: 112px 0;
+}
+
+section#features h2 {
+	margin-bottom: 80px;
+}
+
+.features__grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr;
+	gap: 64px;
+	align-items: start;
+}
+
+.features__grid.gap {
+	margin-top: 64px;
+}
+
+.features__card {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, auto);
+	gap: 24px;
 }
 
 /* INSTAGRAM */
@@ -549,6 +581,32 @@ footer {
 	margin-bottom: 32px;
 }
 
+/* SECTION: GRACIAS */
+body#email {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.email__grid {
+	max-width: 768px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, auto);
+	gap: 32px;
+
+	text-align: center;
+}
+
+.email__grid img,
+.email__grid .btn {
+	margin: 0 auto;
+}
+
 /* RESPONSIVE */
 
 /* Laptop */
@@ -650,7 +708,7 @@ footer {
 		display: none;
 	}
 
-	.features__grid {
+	.products__grid {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(3, auto);
 		gap: 80px;
@@ -663,8 +721,8 @@ footer {
 		text-align: center;
 	}
 
-	.features__card img,
-	.features__card .btn {
+	.products__card img,
+	.products__card .btn {
 		margin: 0 auto;
 	}
 
@@ -682,6 +740,11 @@ footer {
 	.header__content .btn {
 		margin: 0 auto;
 	}
+
+	.features__grid {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
 }
 
 /* Mobile Landscape */
@@ -695,11 +758,17 @@ footer {
 	}
 
 	h3 {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
-	.features__header {
+	.products__header {
 		margin-bottom: 0;
+	}
+
+	.features__grid {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+		gap: 32px;
 	}
 
 	.contact__group {
