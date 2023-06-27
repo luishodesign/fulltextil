@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 19L15 20V55L11 53V19Z" fill="#3058CD"/>
+<path d="M27 14L31 15V50L27 48V14Z" fill="#3058CD"/>
+<path d="M43 19L47 20V55L43 53V19Z" fill="#3058CD"/>
+<path d="M11 17V52C11 53.6569 13.2386 55 16 55C18.7614 55 21 53.6569 21 52V17" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<path d="M15 20V55" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="16" cy="17" rx="5" ry="3" stroke="#FEFEFE" stroke-width="2"/>
+<path d="M27 12V47C27 48.6569 29.2386 50 32 50C34.7614 50 37 48.6569 37 47V12" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<path d="M31 15V50" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="32" cy="12" rx="5" ry="3" stroke="#FEFEFE" stroke-width="2"/>
+<path d="M43 17V52C43 53.6569 45.2386 55 48 55C50.7614 55 53 53.6569 53 52V17" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<path d="M47 20V55" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="48" cy="17" rx="5" ry="3" stroke="#FEFEFE" stroke-width="2"/>
+</svg>

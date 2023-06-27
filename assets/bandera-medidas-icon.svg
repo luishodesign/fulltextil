@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 14C12 7.92487 16.9249 3 23 3H31C32.6569 3 34 4.34315 34 6V59C34 60.1046 33.1046 61 32 61H12V14Z" fill="#3058CD" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<path d="M16 14C16 7.92487 20.9249 3 27 3H35C36.6569 3 38 4.34315 38 6V59C38 60.1046 37.1046 61 36 61H16V14Z" fill="#0E0E0E" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<path d="M23.0711 34L23.0711 11" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round"/>
+<path d="M27.0711 34L27.0711 11" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round"/>
+<path d="M31.0711 34L31.0711 11" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round"/>
+<rect x="27.0711" y="57.0711" width="10" height="10" rx="2" transform="rotate(-135 27.0711 57.0711)" fill="#0E0E0E" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<rect x="27.0711" y="51" width="10" height="10" rx="2" transform="rotate(-135 27.0711 51)" fill="#0E0E0E" stroke="#FEFEFE" stroke-width="2" stroke-linejoin="round"/>
+<path d="M49 61L49 3" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+<path d="M52 3L46 3" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round"/>
+<path d="M52 61H46" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round"/>
+</svg>
