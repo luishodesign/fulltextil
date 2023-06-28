@@ -270,24 +270,8 @@
 			<div class="container">
 				<h2>Síguenos en Instagram</h2>
 			</div>
-			<div class="instagram__grid">
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-			</div>
-			<div class="instagram__grid">
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-				<img src="assets/instagram-image.jpg" alt="" />
-			</div>
+			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+			<div class="elfsight-app-8c67b49f-f655-4273-872c-3f477ebac015"></div>
 		</section>
 
 		<!-- CONTACT -->
@@ -299,31 +283,31 @@
 						<p>Creamos productos de alto impacto.</p>
 						<p>Te ayudamos a diseñar y elegir la mejor opción para tu marca.</p>
 					</div>
-					<form class="contact__form" action="https://formspree.io/xydwakam" method="POST">
+					<form class="contact__form" action="https://formspree.io/f/mpzgajwe" method="POST">
 						<div class="contact__group">
 							<div class="contact__item">
-								<label for="">Nombre y Apellido</label>
-								<input type="text" />
+								<label for="nombre_apellido">Nombre y Apellido</label>
+								<input type="text" name="nombre_apellido" />
 							</div>
 							<div class="contact__item">
-								<label for="">Email</label>
-								<input type="email" required />
+								<label for="email">Email</label>
+								<input type="email" name="email" required />
 							</div>
 						</div>
 
 						<div class="contact__group">
 							<div class="contact__item">
-								<label for="">Teléfono</label>
-								<input type="text" />
+								<label for="telefono">Teléfono</label>
+								<input type="tel" name="telefono" />
 							</div>
 							<div class="contact__item">
-								<label for="">Empresa</label>
-								<input type="text" />
+								<label for="empresa">Empresa</label>
+								<input type="text" name="empresa" />
 							</div>
 						</div>
 
 						<div class="contact__item">
-							<label for="">Escoge tu producto</label>
+							<label for="productos">Escoge tu producto</label>
 							<select name="productos" required>
 								<option value="" disabled selected>Elige una opción...</option>
 								<option value="Banderas Publicitarias">Banderas Publicitarias</option>
@@ -333,8 +317,8 @@
 						</div>
 
 						<div class="contact__item">
-							<label for="">Mensaje</label>
-							<textarea name="" placeholder="Escribe tu mensaje aquí..."></textarea>
+							<label for="mensaje">Mensaje</label>
+							<textarea name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
 						</div>
 
 						<button type="submit" class="btn btn--primary">Enviar Mensaje Ahora</button>
