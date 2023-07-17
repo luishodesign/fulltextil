@@ -340,6 +340,7 @@ section#products {
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, auto);
 	gap: 24px;
+	align-content: start;
 }
 
 .products__card .btn {
